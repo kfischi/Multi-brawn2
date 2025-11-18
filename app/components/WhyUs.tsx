@@ -1,6 +1,6 @@
 'use client'
 
-import { UserCheck, Headphones, Clock, MessageCircle } from 'lucide-react'
+import { UserCheck, Headphones, Clock, Shield, Star, MessageCircle } from 'lucide-react'
 
 const features = [
   {
