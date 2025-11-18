@@ -8,27 +8,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: {
-          cyan: '#00E0FF',
-          blue: '#2D7FFF',
-          purple: '#A06BFF',
-        },
-        accent: {
-          pink: '#FF5EA1',
-          cyan: '#00E0FF',
-        },
-        text: {
-          dark: '#1a0b2e',
-          light: '#FAFAFA',
-          grey: '#444444',
-        },
+        'accent-pink': '#FF5EA1',
+        'accent-cyan': '#00E0FF',
+        'text-dark': '#1a0b2e',
+        'text-grey': '#64748b',
       },
       fontFamily: {
-        heebo: ['Heebo', 'sans-serif'],
         playfair: ['Playfair Display', 'serif'],
-      },
-      backgroundImage: {
-        'gradient-main': 'linear-gradient(135deg, #00E0FF, #2D7FFF, #A06BFF)',
+        heebo: ['Heebo', 'sans-serif'],
       },
     },
   },
