@@ -1,6 +1,6 @@
 'use client'
 
-import { UserCheck, Headphones, Clock, Shield, Star, MessageCircleHeart } from 'lucide-react'
+import { UserCheck, Headphones, Clock, MessageCircle } from 'lucide-react'
 
 const features = [
   {
@@ -29,7 +29,7 @@ const features = [
     description: 'גישה למקומות שלא תמצאו בחיפוש רגיל. מתחמים אקסקלוסיביים זמינים רק דרכנו.',
   },
   {
-    icon: MessageCircleHeart,
+    icon: MessageCircle,
     title: 'ליווי מלא',
     description: 'מרגע הפנייה ועד שאתם בחזרה בבית - ערדית זמינה לכל שאלה ובעיה.',
   },
